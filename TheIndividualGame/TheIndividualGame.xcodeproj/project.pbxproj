@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		083466A229B1923D00D6B3E2 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083466A129B1923D00D6B3E2 /* CustomARView.swift */; };
+		083466A329B19B1400D6B3E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08CDA997299EAAEB005D498E /* Assets.xcassets */; };
 		08CDA992299EAAEA005D498E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CDA991299EAAEA005D498E /* AppDelegate.swift */; };
 		08CDA994299EAAEA005D498E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CDA993299EAAEA005D498E /* ContentView.swift */; };
 		08CDA996299EAAEA005D498E /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 08CDA995299EAAEA005D498E /* Experience.rcproject */; };
-		08CDA998299EAAEB005D498E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08CDA997299EAAEB005D498E /* Assets.xcassets */; };
 		08CDA99B299EAAEB005D498E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08CDA99A299EAAEB005D498E /* Preview Assets.xcassets */; };
 		08CDA9A2299EACED005D498E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CDA9A1299EACED005D498E /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		083466A129B1923D00D6B3E2 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		083466A429B19C6100D6B3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		08CDA98E299EAAEA005D498E /* TheIndividualGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheIndividualGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CDA991299EAAEA005D498E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08CDA993299EAAEA005D498E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,8 +58,10 @@
 		08CDA990299EAAEA005D498E /* TheIndividualGame */ = {
 			isa = PBXGroup;
 			children = (
+				083466A429B19C6100D6B3E2 /* Info.plist */,
 				08CDA991299EAAEA005D498E /* AppDelegate.swift */,
 				08CDA993299EAAEA005D498E /* ContentView.swift */,
+				083466A129B1923D00D6B3E2 /* CustomARView.swift */,
 				08CDA9A1299EACED005D498E /* Menu.swift */,
 				08CDA995299EAAEA005D498E /* Experience.rcproject */,
 				08CDA997299EAAEB005D498E /* Assets.xcassets */,
@@ -131,8 +136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				083466A329B19B1400D6B3E2 /* Assets.xcassets in Resources */,
 				08CDA99B299EAAEB005D498E /* Preview Assets.xcassets in Resources */,
-				08CDA998299EAAEB005D498E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				083466A229B1923D00D6B3E2 /* CustomARView.swift in Sources */,
 				08CDA994299EAAEA005D498E /* ContentView.swift in Sources */,
 				08CDA992299EAAEA005D498E /* AppDelegate.swift in Sources */,
 				08CDA9A2299EACED005D498E /* Menu.swift in Sources */,
@@ -278,6 +284,7 @@
 				DEVELOPMENT_TEAM = T9MQMG8LLF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -285,6 +292,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +317,7 @@
 				DEVELOPMENT_TEAM = T9MQMG8LLF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +325,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
